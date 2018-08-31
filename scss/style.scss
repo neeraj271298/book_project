@@ -1,0 +1,34 @@
+$primary: #3293a6;
+$primary-overlay: rgba(50,146,166,0.8);
+
+body{
+    margin-top: 105px;
+}
+
+.navbar{
+   box-shadow: 2px 2px 5px $primary;
+   opacity: 0.9;
+   background: #fff;
+   .nav-item{
+       font-size: 1.4rem;
+       padding-right: 1.0rem;
+   }
+}
+
+#header-section{
+    background: url(../img/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:600px;
+}
+
+#header-section .overlay{
+    background: $primary-overlay;
+    margin-top:80px;
+    height:600px;
+}
+
+#header-section .home-inner{
+    padding-top:150px;
+}
